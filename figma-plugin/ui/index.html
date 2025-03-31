@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Tracker Plugin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Eye Tracker Plugin</h1>
+
+        <input type="file" id="imageUpload">
+        <button id="analyzeBtn">Analyze</button>
+
+        <!-- Display results -->
+        <h3>Saliency Map</h3>
+        <img id="saliencyImage" style="display:none; width:300px;">
+
+        <h3>Marked Image (with points)</h3>
+        <img id="markedImage" style="display:none; width:300px;">
+
+
+        <h3>HeatMap of image Image </h3>
+        <img id="heatMapImage" style="display:none; width:300px;">
+        
+        <h3>Overlay of image Image </h3>
+        <img id="overlayImage" style="display:none; width:300px;">
+        <button id="closeBtn">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

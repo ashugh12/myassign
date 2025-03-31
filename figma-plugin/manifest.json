@@ -1,0 +1,14 @@
+{
+    "name": "Visual Attention Hotspot Detector",
+    "id": "hotspot-detector",
+    "api": "1.0.0",
+    "main": "main.js",
+    "ui": "ui/index.html",
+    "menu": [
+      {
+        "name": "Analyze Design",
+        "command": "analyze-design"
+      }
+    ]
+  }
+  
